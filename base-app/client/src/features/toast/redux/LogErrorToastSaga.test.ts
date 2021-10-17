@@ -10,6 +10,7 @@ import { showToast } from './toastSlice';
 // since Watcher Saga only runs takeEvery effect & it's Redux Saga job to test it, not us
 
 // Testing Worker Saga with Redux Saga Test Plan
+// expectSaga - is to do integration testing
 import { expectSaga } from 'redux-saga-test-plan';
 import { logErrorToast, logErrorToasts } from './LogErrorToastSaga';
 
